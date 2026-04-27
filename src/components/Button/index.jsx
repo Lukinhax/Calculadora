@@ -3,7 +3,7 @@ import { ButtonContainer } from './styles';
 
 const Button = ({label, onclick}) => {
     return (
-        <ButtonContainer onClick={onclick} >
+        <ButtonContainer onClick={onclick} type="button">
             {label}
         </ButtonContainer>
     )
