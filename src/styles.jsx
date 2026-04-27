@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const GlobalStyle = styled.div`
+  box-sizing: border-box;
+`;
+
 export const Container = styled.div`
 width: 100%;
 height: 100vh;
